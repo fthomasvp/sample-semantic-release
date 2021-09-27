@@ -1,0 +1,27 @@
+{
+  "name": "sample-semantic-release",
+  "version": "0.0.1",
+  "description": "Demonstração de como utilizar a biblioteca Semantic Release para o controle de versão - baseado no SemVer.org - numa aplicação Node.js",
+  "private": "true",
+  "scripts": {
+    "build": "tsc --project .",
+    "start:dev": "nodemon index.ts --name=sample-semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://fthomasvp@dev.azure.com/fthomasvp/sample-semantic-release/_git/sample-semantic-release"
+  },
+  "author": "fthomasvp",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.0",
+    "@semantic-release/git": "^10.0.0",
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.13",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
