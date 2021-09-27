@@ -31,3 +31,4 @@ steps:
   displayName: 'Semantic Release of Application'
   env:
     NPM_TOKEN: $(NPM_TOKEN)
+    GIT_CREDENTIALS: $(GIT_CREDENTIALS)
