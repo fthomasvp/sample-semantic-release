@@ -22,3 +22,7 @@ steps:
 - script: |
     npm run build
   displayName: 'Build Application'
+
+- script: |
+    npx semantic-release
+  displayName: 'Semantic Release of Application'
