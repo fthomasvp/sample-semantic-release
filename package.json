@@ -1,6 +1,6 @@
 {
   "name": "sample-semantic-release",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Demonstração de como utilizar a biblioteca Semantic Release para o controle de versão - baseado no SemVer.org - numa aplicação Node.js",
   "scripts": {
     "build": "tsc --project .",
