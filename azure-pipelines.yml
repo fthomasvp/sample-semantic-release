@@ -3,6 +3,9 @@
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
+variables:
+- group: sample-group
+
 trigger:
 - master
 
@@ -26,3 +29,5 @@ steps:
 - script: |
     npx semantic-release
   displayName: 'Semantic Release of Application'
+  env:
+    NPM_TOKEN: $(NPM_TOKEN)
