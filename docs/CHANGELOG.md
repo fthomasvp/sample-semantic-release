@@ -1,3 +1,10 @@
+# [1.1.0](https://dev.azure.com/fthomasvp/sample-semantic-release/_git/sample-semantic-release/compare/v1.0.2...v1.1.0) (2021-09-27)
+
+
+### Features
+
+* add hi endpoint ([4ce417e](https://dev.azure.com/fthomasvp/sample-semantic-release/_git/sample-semantic-release/commit/4ce417e0ec5f229c6033ac5618cfa9ce29d3e134))
+
 ## [1.0.2](https://dev.azure.com/fthomasvp/sample-semantic-release/_git/sample-semantic-release/compare/v1.0.1...v1.0.2) (2021-09-27)
 
 
