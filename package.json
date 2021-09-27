@@ -2,6 +2,7 @@
   "name": "sample-semantic-release",
   "version": "1.0.0",
   "description": "Demonstração de como utilizar a biblioteca Semantic Release para o controle de versão - baseado no SemVer.org - numa aplicação Node.js",
+  "private": "true",
   "scripts": {
     "build": "tsc --project .",
     "start:dev": "nodemon index.ts --name=sample-semantic-release"
